@@ -1,0 +1,35 @@
+.img1{
+    padding-left: 20px;
+    height: 400px;
+    width:300px;
+  
+}
+.img1:hover{
+    transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.ab1{
+    top:40%;
+    left:30%;
+    position: absolute;
+    width: 800px;
+    height: 250px;
+    background-color: rgba(67, 110, 194, 0.648);
+    color: white;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    transform: skew(-20deg);
+}
+.ab1:hover{
+    transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(151, 72, 180, 0.12), 0 4px 8px rgba(166, 76, 207, 0.06);
+}
+.ab2{
+    color:antiquewhite;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+}

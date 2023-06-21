@@ -1,0 +1,30 @@
+.hovertext{
+  text-align: center;
+  font-style: italic;
+  font-size:70px;
+  color: whitesmoke;
+}
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 500px;
+  background-color:rgba(61, 124, 158, 0.637);
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  position: absolute;
+  z-index: 1;
+  cursor:pointer;
+  }
+  .hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  .card:hover:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}

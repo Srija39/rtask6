@@ -1,0 +1,36 @@
+.background {
+    background-image: url(https://media.istockphoto.com/id/545664160/photo/woman-hands-with-tablet-laptop-smartphone-and-coffee.jpg?s=1024x1024&w=is&k=20&c=BeDXg5BX_sBKYeRiA11J2KWAcWD8MYzmGm0-FsLuWcY=);
+    background-position:absolute;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  
+  .blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    height: 100vh;
+    width: 100%;
+    
+  }
+  .mn1{
+    position: absolute;
+    display: inline;
+    top:50%;
+    left:30%;
+    border:2px dotted black;
+    padding: 100px,50px;
+    width:500px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(43, 184, 11);
+    border-color: orange;
+  }
+  .mn1:hover{
+    transform: scale(1.05);
+   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+  }
